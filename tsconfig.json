@@ -1,0 +1,22 @@
+
+{
+    "compilerOptions": {
+      "allowSyntheticDefaultImports": true,
+      "jsx": "preserve",
+      "lib": ["dom", "esnext"],
+      "rootDirs": ["src", "packages"],
+      "moduleResolution": "node",
+      "noEmit": true,
+      "skipLibCheck": true,
+      "resolveJsonModule": true,
+      "target": "es5",
+      "allowJs": true,
+      "strict": true,
+      "forceConsistentCasingInFileNames": true,
+      "esModuleInterop": true,
+      "module": "esnext",
+      "isolatedModules": true,
+    },
+    "exclude": ["node_modules"],
+    "include": ["**/*.ts", "**/*.tsx", "src/scripts/*.ts", "ENDPOINT.js"],
+  }
